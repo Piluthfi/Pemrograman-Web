@@ -1,0 +1,199 @@
+/* Mulai Kode */
+@font-face {
+  font-family: "Verdana";
+  src: url("../fonts/verdana.ttf") format("truetype");
+}
+
+body {
+  font-family: "Verdana", arial, sans-serif;
+  font-size: 16px/28px;
+  background-color: white;
+  background-image: url(../img/latar1.jpg);
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+.menu ul li a:hover {
+  display: block;
+  background: #0f72d67e;
+}
+
+.menu ul li .dropdown {
+  display: none;
+}
+
+.menu ul li:hover .dropdown {
+  display: block;
+  background: rgb(53, 53, 53);
+  position: absolute;
+  padding: 0;
+}
+
+.menu ul li:hover .dropdown li {
+  display: block;
+}
+
+.menu ul li .dropdown a:hover {
+  text-decoration: underline;
+  background-color: #76bff0ec;
+}
+
+.jumbotron {
+  position: relative;
+  font-size: 20px;
+  padding: 30px;
+  background-color: white;
+}
+
+.jumbotron img {
+  float: left;
+}
+
+.jumbotron h2 {
+  margin-left: 800px;
+  font-size: 18px;
+  text-align: left;
+}
+
+nav {
+  background-color: #1869b9;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}
+
+.hero {
+  height: 335px;
+  background-image: url(../img/informatika.jpg);
+  background-size: cover;
+  border-top: 5px solid #c51010;
+  border-bottom: 5px solid #1058c5;
+  margin-top: 33px;
+}
+
+.hero-akt {
+  height: 335px;
+  background-image: url(../img/akuntansi.png);
+  background-size: cover;
+  border-top: 5px solid #c51010;
+  border-bottom: 5px solid #1058c5;
+  margin-top: 33px;
+}
+
+.hero-daftar {
+  height: 335px;
+  background-image: url(../img/pendaftaran.png);
+  background-size: cover;
+  border-top: 5px solid #c51010;
+  border-bottom: 5px solid #1058c5;
+  margin-top: 33px;
+}
+
+.main {
+  padding: 50px;
+  box-sizing: border-box;
+  float: left;
+  text-align: justify;
+}
+
+.main h1 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.main ol li {
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.footer-inf {
+  position: relative;
+  background-color: #a5cd39;
+  padding: 1px;
+}
+
+.footer-inf img {
+  margin: 20px;
+  float: left;
+}
+
+.footer-inf .copy {
+  color: #eaeaea;
+  margin-left: 514px;
+  font-size: 12px;
+  padding: 70px;
+}
+
+.footer-akt {
+  position: relative;
+  background-color: #00877d;
+  padding: 1px;
+}
+
+.footer-akt img {
+  margin: 20px;
+  float: left;
+}
+
+.footer-akt .copy {
+  color: #eaeaea;
+  margin-left: 514px;
+  font-size: 12px;
+  padding: 32px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 30px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
